@@ -86,11 +86,11 @@ $goodBadCountDiff = $goodCount - $badCount;
 
 /*PRINTING RESULTS ON THE SCREEN*/
 echo "<h1>Contract address\t: $contractAddr<h1><hr>";
-echo "<h1>Contract transactions: \t" . $valueEth . " [Ether] OR " . $valueUsd . " [USD] </h1><hr>";
+echo "<h1>All contract transactions: \t" . $valueEth . " [Ether] OR " . $valueUsd . " [USD] </h1><hr>";
 echo "<h2>Good transactions: \t" . $goodValue . " [Ether] OR " . $goodValueUsd . " [USD] </h2>";
 echo "<h2>Bad transactions: \t" . $badValue . " [Ether] OR " . $badValueUsd . " [USD] </h2><hr>";
 echo "<h3>Good-Bad tnxs = \t" . $goodBadDiff . " [Ether] OR " . $goodBadDiffUsd . " [USD] </h3>";
-echo "<h2>Good-Bad diff = \t" . $goodBadCountDiff . " [q]</h2><hr>";
+echo "<h3>Good-Bad diff = \t" . $goodBadCountDiff . " [q]</h3><hr>";
 
 /*PRINTING ALL INCOMINGS CONTRACT DATA ON THE SCREEN*/
 echo "<table class='table' border='1' cellpadding='10'>";
